@@ -17,7 +17,7 @@ Smartcrop.js works using fairly dumb image processing. In short:
 1. Find regions with a color like skin
 1. Find regions high in saturation
 1. Generate a set of candidate crops using a sliding window
-1. Rank them using a importance function to focus the detail in the center
+1. Rank them using an importance function to focus the detail in the center
   and avoid it in the edges. 
 1. Output the candidate crop with the highest rank
 
@@ -107,6 +107,7 @@ In other words, it's fine to run it on one image, it's not cool to run it on an 
 
 ## Ports, Alternatives
 
+* [connect-thumbs](https://github.com/inadarei/connect-thumbs) Middleware for connect.js that supports smartcrop.js by [Irakli Nadareishvili](https://github.com/inadarei/connect-thumbs)
 * [smartcrop.go](https://github.com/muesli/smartcrop) by [Christian Muehlhaeuser](https://github.com/muesli)
 * [smartcrop.py](https://github.com/hhatto/smartcrop.py) by [Hideo Hattori](http://www.hexacosa.net/about/)
 
